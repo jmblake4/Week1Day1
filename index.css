@@ -1,30 +1,82 @@
+html {
+	color: #000000;
+	background-color: #ffffff;
+	font-size: 12px;
+}
+
 #navbar {
 	width: 100%;
-	height: 20px;
+	height: 40px;
 	top: 0%;
 	position: fixed;
+	background-color: #005599;
+	color: #ffffff;
+}
+
+#navbar a {
+	text-decoration: none;
+}
+
+#navbar a:link {
+	color: #ffffff;
+}
+
+#navbar a:visited {
+	color: #ffffff;
+}
+
+#navbar a:hover {
+	color: #ff5522;
 }
 
 #navbar ul {
 	text-align: center;
+	margin-top: 0px;
 }
 
 #navbar li {
 	display: inline;
 	font-size: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.hline {
+	width:100%;
+	height:1px;
+	background: #000000;
 }
 
 #header {
-	margin-top: 10%
+	margin-top: 40px;
 }
 
 #header p {
 	text-align: center;
 }
 
-#about p {
-	display: inline;
-	padding: 40px;
+#name {
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+#title {
+	font-size: 15px;
+	margin-top: 0px;
+}
+
+#about_para_1 {
+	float: left;
+	width: 40%;
+	text-align: left;
+	margin-left: 5%;
+}
+
+#about_para_2 {
+	float: right;
+	width: 40%;
+	text-align: left;
+	margin-right: 5%;
 }
 
 .skill_list {
@@ -34,25 +86,114 @@
 }
 
 .sec_title {
+	clear: both;
 	text-align: center;
+}
+
+.para_title {
+	font-size: 20px;
+	border-top: 2px;
+	border-top-color: #000000;
+	border-bottom: 2px;
+	border-bottom-color: #000000;
 }
 
 .job_info {
 	text-align: left;
+	font-weight: bold;
 }
 
 .job_date {
-	margin-left: 10px;
+	text-indent: 10px;
+	font-style: italic;
+	font-weight: normal;
 }
 
 .job_desc {
-	margin-left: 10px;
+	text-indent: 10px;
+	font-weight: normal;
 }
 
 .edu_location {
 	text-align: left;
+	font-weight: bold;
 }
 
 .edu_desc {
 	text-align: left;
+	text-indent: 10px;
+}
+
+#message_form {
+	background-color:#005599;
+	width: 80%;
+	margin:auto;
+}
+
+.label_div {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	color: #ffffff;	
+}
+
+.input_div {
+	width: 50%;
+	display: block;
+	text-align: left;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: #ffffff;
+	color: #666666;	
+}
+
+/*#message_form label {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	color: #ffffff;
+}*/
+
+#message_form input {
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-align: left;
+	background-color: #ffffff;
+	color: #666666;
+}
+
+#message_div {
+	width: 50%;
+	height: 100px;
+	display: block;
+	text-align: left;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: #ffffff;
+	color: #666666;	
+}
+
+.input_div {
+	width: 50%;
+	display: block;
+	text-align: left;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: #ffffff;
+	color: #666666;	
+}
+
+.btn {
+	width: 50%;
+	display: block;
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: #ffffff;
+	color: #666666;	
 }

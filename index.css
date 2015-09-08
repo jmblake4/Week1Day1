@@ -1,0 +1,58 @@
+#navbar {
+	width: 100%;
+	height: 20px;
+	top: 0%;
+	position: fixed;
+}
+
+#navbar ul {
+	text-align: center;
+}
+
+#navbar li {
+	display: inline;
+	font-size: 15px;
+}
+
+#header {
+	margin-top: 10%
+}
+
+#header p {
+	text-align: center;
+}
+
+#about p {
+	display: inline;
+	padding: 40px;
+}
+
+.skill_list {
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.sec_title {
+	text-align: center;
+}
+
+.job_info {
+	text-align: left;
+}
+
+.job_date {
+	margin-left: 10px;
+}
+
+.job_desc {
+	margin-left: 10px;
+}
+
+.edu_location {
+	text-align: left;
+}
+
+.edu_desc {
+	text-align: left;
+}

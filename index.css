@@ -99,6 +99,7 @@ html {
 }
 
 .job_info {
+	margin-top: 10px;
 	text-align: left;
 	font-weight: bold;
 }
@@ -112,16 +113,25 @@ html {
 .job_desc {
 	text-indent: 10px;
 	font-weight: normal;
+	margin-bottom: 10px;
 }
 
 .edu_location {
+	margin-top: 10px;
 	text-align: left;
 	font-weight: bold;
 }
 
 .edu_desc {
+	margin-bottom: 10px;
 	text-align: left;
 	text-indent: 10px;
+}
+
+.whitespace20px {
+	background-color: #ffffff;
+	height: 20px;
+	width: 100%;
 }
 
 #message_form {
@@ -187,4 +197,33 @@ html {
 	margin-right: 25%;
 	background-color: #ffffff;
 	color: #666666;	
+	padding-top: 15px;
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.info_link {
+	text-align: center;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#github {
+	display: inline-block;
+	text-align: center;
+}
+
+#linkedin {
+	display: inline-block;
+	text-align: center;
+}
+
+#copyright {
+	text-align: center;
+	display: block;
 }
